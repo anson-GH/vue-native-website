@@ -237,8 +237,8 @@ This is a controlled component that requires an `on-value-change` callback that 
             }
         },
         methods: {
-            handleChange: () => {
-                this.value = !this.value
+            handleChange(val) {
+                this.value = val
             }
         }
     }
